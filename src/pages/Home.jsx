@@ -637,9 +637,9 @@ export default function Home() {
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           {/* Floating Header Content */}
-          <div className={`flex items-center gap-3 transition-all duration-300 ${
-            showFloatingHeader 
-              ? 'opacity-100 translate-y-0' 
+          <div className={`hidden sm:flex items-center gap-3 transition-all duration-300 ${
+            showFloatingHeader
+              ? 'opacity-100 translate-y-0'
               : 'opacity-0 -translate-y-4 pointer-events-none'
           }`}>
             <button 
@@ -664,19 +664,38 @@ export default function Home() {
             </div>
           </div>
           
-          {/* Language Switcher */}
-          <div className="flex items-center gap-1">
-            {['pl', 'uk', 'ru'].map((lang) => (
-              <button
-                key={lang}
-                onClick={() => setLanguage(lang)}
-                className={`px-3 py-1 rounded-md text-xs font-bold transition-all uppercase tracking-wider ${
-                  language === lang ? 'bg-black text-white' : 'text-gray-500 hover:bg-gray-100'
-                }`}
-              >
-                {lang}
-              </button>
-            ))}
+          {/* Social Icons + Language Switcher */}
+          <div className="flex items-center gap-2 sm:gap-3">
+            {/* Social Icons */}
+            <div className="flex items-center gap-1.5 sm:gap-2">
+              <a href={t.footer.socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border border-gray-200 flex items-center justify-center text-[#666666] hover:bg-[#1C1917] hover:text-white hover:border-[#1C1917] transition-all bg-white" title="LinkedIn">
+                <Linkedin className="w-3.5 h-3.5" />
+              </a>
+              <a href={t.footer.socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border border-gray-200 flex items-center justify-center text-[#666666] hover:bg-[#1C1917] hover:text-white hover:border-[#1C1917] transition-all bg-white" title="Instagram">
+                <Instagram className="w-3.5 h-3.5" />
+              </a>
+              <a href={t.footer.socialLinks.maps} target="_blank" rel="noopener noreferrer" className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border border-gray-200 flex items-center justify-center text-[#666666] hover:bg-[#1C1917] hover:text-white hover:border-[#1C1917] transition-all bg-white" title="Google Maps">
+                <MapPin className="w-3.5 h-3.5" />
+              </a>
+            </div>
+
+            {/* Divider */}
+            <div className="hidden sm:block w-px h-5 bg-gray-300" />
+
+            {/* Language Switcher */}
+            <div className="flex items-center gap-1">
+              {['pl', 'uk', 'ru'].map((lang) => (
+                <button
+                  key={lang}
+                  onClick={() => setLanguage(lang)}
+                  className={`px-3 py-1 rounded-md text-xs font-bold transition-all uppercase tracking-wider ${
+                    language === lang ? 'bg-black text-white' : 'text-gray-500 hover:bg-gray-100'
+                  }`}
+                >
+                  {lang}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </nav>
