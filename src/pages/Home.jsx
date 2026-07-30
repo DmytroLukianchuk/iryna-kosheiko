@@ -79,7 +79,7 @@ const translations = {
           { name: "Denys Toporko", role: "Specjalista ds. kredytów hipotecznych", image: "/team/denys.jpg" },
           { name: "Paweł Klucznik", role: "Specjalista ds. obsługi klienta", image: "/team/pawel.jpg" },
           { name: "Antoni Kasprzyk", role: "Specjalista ds. ubezpieczeń majątkowych", image: "" },
-          { name: "Magdalena Kośmider", role: "Specjalista ds. ubezpieczeń majątkowych", image: "/team/magdalena.jpg" },
+          { name: "Magdalena Kośmider", role: "Specjalista ds. ubezpieczeń majątkowych", image: "" },
           { name: "Yelyzaveta Shapurenko", role: "Specjalista ds. procesów kredytowych oraz ubezpieczeniowych", image: "/team/yelyzaveta.jpg" }
         ]
       }
@@ -206,7 +206,7 @@ const translations = {
                   { name: "Denys Toporko", role: "Спеціаліст з іпотечних кредитів", image: "/team/denys.jpg" },
                   { name: "Paweł Klucznik", role: "Спеціаліст з обслуговування клієнтів", image: "/team/pawel.jpg" },
                   { name: "Antoni Kasprzyk", role: "Спеціаліст зі страхування майна", image: "" },
-                  { name: "Magdalena Kośmider", role: "Спеціаліст зі страхування майна", image: "/team/magdalena.jpg" },
+                  { name: "Magdalena Kośmider", role: "Спеціаліст зі страхування майна", image: "" },
                   { name: "Yelyzaveta Shapurenko", role: "Спеціаліст з кредитних та страхових процесів", image: "/team/yelyzaveta.jpg" }
                 ]
               }
@@ -333,7 +333,7 @@ const translations = {
                   { name: "Denys Toporko", role: "Специалист по ипотечным кредитам", image: "/team/denys.jpg" },
                   { name: "Paweł Klucznik", role: "Специалист по обслуживанию клиентов", image: "/team/pawel.jpg" },
                   { name: "Antoni Kasprzyk", role: "Специалист по страхованию имущества", image: "" },
-                  { name: "Magdalena Kośmider", role: "Специалист по страхованию имущества", image: "/team/magdalena.jpg" },
+                  { name: "Magdalena Kośmider", role: "Специалист по страхованию имущества", image: "" },
                   { name: "Yelyzaveta Shapurenko", role: "Специалист по кредитным и страховым процессам", image: "/team/yelyzaveta.jpg" }
                 ]
               }
@@ -717,7 +717,7 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-full border border-[#000000]/10 scale-110"></div>
                 <div className="w-full h-full rounded-full overflow-hidden shadow-2xl border-4 border-white">
                   <img 
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68f2565d12abe71377f293e4/0bd3aba70_photo_2025-12-02160933.jpeg" 
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68f2565d12abe71377f293e4/0bd3aba70_photo_2025-12-02160933.jpeg"
                     alt="Iryna Kosheiko"
                     className="w-full h-full object-cover"
                   />
