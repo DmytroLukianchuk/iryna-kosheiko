@@ -168,6 +168,12 @@ const translations = {
       },
       address: "Feliksa Radwańskiego 15/3, 30-065 Kraków",
     },
+    refinance: {
+      title: "Refinansowanie Twojego kredytu hipotecznego",
+      text: "Chcesz obniżyć swoją miesięczną ratę, zmienić okres kredytowania lub uzyskać lepsze warunki w innym banku? Wypełnij ten krótki formularz – sprawdzę dostępne oferty banków i przygotuję dla Ciebie indywidualne porównanie, uwzględniając wszystkie dodatkowe koszty.",
+      button: "Wypełnij Formularz",
+      formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfKiLE7txS45In-AA_yHGkklTbvum8sQpeZ8bPNVHig-SlAEg/viewform"
+    },
     footer: {
       title: "Iryna Kosheiko — Doradca Finansowy",
       description: "Doradztwo finansowe w języku polskim, ukraińskim i angielskim.",
@@ -295,6 +301,12 @@ const translations = {
       },
       address: "Feliksa Radwańskiego 15, 30-065 Краків",
     },
+    refinance: {
+      title: "Рефінансування твого іпотечного кредиту",
+      text: "Бажаєш зменшити щомісячний платіж, змінити термін кредиту або отримати кращі умови в іншому банку? Заповни цю коротку форму - я перевірю доступні пропозиції від банків і підготую для тебе індивідуальне порівняння з урахуванням усіх додаткових оплат",
+      button: "Заповнити форму",
+      formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdobiMEkm5QoA07V86xpS_SO6OlKufTXGcY_KkCR-nkX-CNEg/viewform"
+    },
     footer: {
       title: "Ірина Кошейко — Фінансовий Радник",
       description: "Фінансове консультування польською, українською та англійською.",
@@ -421,6 +433,12 @@ const translations = {
         submit: "Отправить Сообщение"
       },
       address: "Feliksa Radwańskiego 15, 30-065 Краков",
+    },
+    refinance: {
+      title: "Рефинансирование твоего ипотечного кредита",
+      text: "Хочешь уменьшить ежемесячный платеж, изменить срок кредита или получить более выгодные условия в другом банке? Заполни эту короткую форму - я проверю доступные предложения от банков и подготовлю для тебя индивидуальное сравнение с учётом всех дополнительных расходов.",
+      button: "Заполнить форму",
+      formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfcbWPSC8Yw3oKdDrzALr7hp7Y1B-MRpu5WbVED9GQ0TCPRWw/viewform"
     },
     footer: {
       title: "Ирина Кошейко — Финансовый Консультант",
@@ -1139,6 +1157,32 @@ export default function Home() {
               </form>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Refinance CTA */}
+      <section className="py-20 bg-[#F5EDE3]">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="font-serif text-2xl md:text-4xl font-medium text-[#000000] mb-4">
+              {t.refinance.title}
+            </h2>
+            <p className="text-[#333333] text-base md:text-lg mb-8 leading-relaxed">
+              {t.refinance.text}
+            </p>
+            <Button
+              onClick={() => window.open(t.refinance.formUrl, '_blank')}
+              size="lg"
+              className="bg-[#000000] hover:bg-[#333333] text-white font-medium text-base px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 gap-2"
+            >
+              <FileText className="w-5 h-5" />
+              {t.refinance.button}
+            </Button>
+          </motion.div>
         </div>
       </section>
 
