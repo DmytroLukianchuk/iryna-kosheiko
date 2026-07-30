@@ -829,15 +829,26 @@ export default function Home() {
                 transition={{ delay: idx * 0.1 }}
                 className="group text-center"
               >
-                <div className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-4 rounded-full overflow-hidden bg-[#F5F5F5] border-2 border-[#E5E5E5] group-hover:border-[#000000] transition-colors">
-                  {member.image ? (
-                    <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center text-[#999999] text-2xl md:text-3xl font-serif font-medium">
-                      {member.name.split(' ').map(n => n[0]).join('')}
-                    </div>
-                  )}
-                </div>
+                {member.image ? (
+                  <Dialog>
+                    <DialogTrigger asChild>
+                      <button
+                        type="button"
+                        aria-label={member.name}
+                        className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-4 rounded-full overflow-hidden bg-[#F5F5F5] border-2 border-[#E5E5E5] group-hover:border-[#000000] transition-colors cursor-zoom-in"
+                      >
+                        <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                      </button>
+                    </DialogTrigger>
+                    <DialogContent className="max-w-md p-0 bg-transparent border-none shadow-none">
+                      <img src={member.image} alt={member.name} className="w-full h-auto rounded-2xl" />
+                    </DialogContent>
+                  </Dialog>
+                ) : (
+                  <div className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-4 rounded-full overflow-hidden bg-[#F5F5F5] border-2 border-[#E5E5E5] group-hover:border-[#000000] transition-colors flex items-center justify-center text-[#999999] text-2xl md:text-3xl font-serif font-medium">
+                    {member.name.split(' ').map(n => n[0]).join('')}
+                  </div>
+                )}
                 <h3 className="font-serif text-sm md:text-base font-medium text-[#000000] mb-1">
                   {member.name}
                 </h3>
