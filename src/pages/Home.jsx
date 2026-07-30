@@ -776,7 +776,7 @@ export default function Home() {
             <motion.div variants={itemVariants} className="md:col-span-5 relative">
                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                  <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68f2565d12abe71377f293e4/d7a4f928a_IrynaKosheiko.png"
+                  src="/iryna-about.jpg"
                   alt="Iryna Kosheiko"
                   className="w-full h-auto object-cover"
                 />
