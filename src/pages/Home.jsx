@@ -177,7 +177,7 @@ const translations = {
         linkedin: "https://www.linkedin.com/in/iryna-kosheiko-368377357/",
         instagram: "https://www.instagram.com/iryna_kosheiko_doradca?igsh=NnJnNGYyaHg4YjFh",
         telegram: "https://t.me/iryna_kosheiko_doradca",
-        maps: "https://www.google.com/maps/search/?api=1&query=Iryna+Kosheiko+Financial+Advisor+Krakow"
+        maps: "https://www.google.com/maps/place/Iryna+Kosheiko+Doradca+Finansowy/@50.066468,19.8678701,14z/data=!4m10!1m2!2m1!1sIryna+Kosheiko+Financial+Advisor+Krakow!3m6!1s0x47165b925a41aa79:0x12f91422b94b28d6!8m2!3d50.066468!4d19.9059789!15sCidJcnluYSBLb3NoZWlrbyBGaW5hbmNpYWwgQWR2aXNvciBLcmFrb3daKSInaXJ5bmEga29zaGVpa28gZmluYW5jaWFsIGFkdmlzb3Iga3Jha293kgERZmluYW5jaWFsX3BsYW5uZXKaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMmt3TUU1clZuaE1WVlYzVVdzNVZsWkZPVWRWYlRGVFRrWTVkbFZ1WXhBQuABAPoBBAgAECk!16s%2Fg%2F11s2j2dqhv?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D"
       }
     }
   },
@@ -304,7 +304,7 @@ const translations = {
         linkedin: "https://www.linkedin.com/in/iryna-kosheiko-368377357/",
         instagram: "https://www.instagram.com/iryna_kosheiko_doradca?igsh=NnJnNGYyaHg4YjFh",
         telegram: "https://t.me/iryna_kosheiko_doradca",
-        maps: "https://www.google.com/maps/search/?api=1&query=Iryna+Kosheiko+Financial+Advisor+Krakow"
+        maps: "https://www.google.com/maps/place/Iryna+Kosheiko+Doradca+Finansowy/@50.066468,19.8678701,14z/data=!4m10!1m2!2m1!1sIryna+Kosheiko+Financial+Advisor+Krakow!3m6!1s0x47165b925a41aa79:0x12f91422b94b28d6!8m2!3d50.066468!4d19.9059789!15sCidJcnluYSBLb3NoZWlrbyBGaW5hbmNpYWwgQWR2aXNvciBLcmFrb3daKSInaXJ5bmEga29zaGVpa28gZmluYW5jaWFsIGFkdmlzb3Iga3Jha293kgERZmluYW5jaWFsX3BsYW5uZXKaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMmt3TUU1clZuaE1WVlYzVVdzNVZsWkZPVWRWYlRGVFRrWTVkbFZ1WXhBQuABAPoBBAgAECk!16s%2Fg%2F11s2j2dqhv?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D"
       }
     }
   },
@@ -431,7 +431,7 @@ const translations = {
         linkedin: "https://www.linkedin.com/in/iryna-kosheiko-368377357/",
         instagram: "https://www.instagram.com/iryna_kosheiko_doradca?igsh=NnJnNGYyaHg4YjFh",
         telegram: "https://t.me/iryna_kosheiko_doradca",
-        maps: "https://www.google.com/maps/search/?api=1&query=Iryna+Kosheiko+Financial+Advisor+Krakow"
+        maps: "https://www.google.com/maps/place/Iryna+Kosheiko+Doradca+Finansowy/@50.066468,19.8678701,14z/data=!4m10!1m2!2m1!1sIryna+Kosheiko+Financial+Advisor+Krakow!3m6!1s0x47165b925a41aa79:0x12f91422b94b28d6!8m2!3d50.066468!4d19.9059789!15sCidJcnluYSBLb3NoZWlrbyBGaW5hbmNpYWwgQWR2aXNvciBLcmFrb3daKSInaXJ5bmEga29zaGVpa28gZmluYW5jaWFsIGFkdmlzb3Iga3Jha293kgERZmluYW5jaWFsX3BsYW5uZXKaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMmt3TUU1clZuaE1WVlYzVVdzNVZsWkZPVWRWYlRGVFRrWTVkbFZ1WXhBQuABAPoBBAgAECk!16s%2Fg%2F11s2j2dqhv?entry=ttu&g_ep=EgoyMDI2MDcyNy4wIKXMDSoASAFQAw%3D%3D"
       }
     }
   }
