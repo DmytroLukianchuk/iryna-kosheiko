@@ -79,7 +79,8 @@ const translations = {
           { name: "Denys Toporko", role: "Specjalista ds. kredytów hipotecznych", image: "" },
           { name: "Paweł Klucznik", role: "Specjalista ds. obsługi klienta", image: "" },
           { name: "Antoni Kasprzyk", role: "Specjalista ds. ubezpieczeń majątkowych", image: "" },
-          { name: "Magdalena Kośmider", role: "Specjalista ds. ubezpieczeń majątkowych", image: "" }
+          { name: "Magdalena Kośmider", role: "Specjalista ds. ubezpieczeń majątkowych", image: "" },
+          { name: "Yelyzaveta Shapurenko", role: "Specjalista ds. procesów kredytowych oraz ubezpieczeniowych", image: "" }
         ]
       }
     },
@@ -205,7 +206,8 @@ const translations = {
                   { name: "Denys Toporko", role: "Спеціаліст з іпотечних кредитів", image: "" },
                   { name: "Paweł Klucznik", role: "Спеціаліст з обслуговування клієнтів", image: "" },
                   { name: "Antoni Kasprzyk", role: "Спеціаліст зі страхування майна", image: "" },
-                  { name: "Magdalena Kośmider", role: "Спеціаліст зі страхування майна", image: "" }
+                  { name: "Magdalena Kośmider", role: "Спеціаліст зі страхування майна", image: "" },
+                  { name: "Yelyzaveta Shapurenko", role: "Спеціаліст з кредитних та страхових процесів", image: "" }
                 ]
               }
     },
@@ -331,7 +333,8 @@ const translations = {
                   { name: "Denys Toporko", role: "Специалист по ипотечным кредитам", image: "" },
                   { name: "Paweł Klucznik", role: "Специалист по обслуживанию клиентов", image: "" },
                   { name: "Antoni Kasprzyk", role: "Специалист по страхованию имущества", image: "" },
-                  { name: "Magdalena Kośmider", role: "Специалист по страхованию имущества", image: "" }
+                  { name: "Magdalena Kośmider", role: "Специалист по страхованию имущества", image: "" },
+                  { name: "Yelyzaveta Shapurenko", role: "Специалист по кредитным и страховым процессам", image: "" }
                 ]
               }
     },
