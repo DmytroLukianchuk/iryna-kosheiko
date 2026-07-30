@@ -75,12 +75,12 @@ const translations = {
       team: {
         title: "Mój Zespół",
         members: [
-          { name: "Wiktoria Chubatiuk", role: "Specjalista ds. procesów kredytowych", image: "" },
-          { name: "Denys Toporko", role: "Specjalista ds. kredytów hipotecznych", image: "" },
-          { name: "Paweł Klucznik", role: "Specjalista ds. obsługi klienta", image: "" },
+          { name: "Wiktoria Chubatiuk", role: "Specjalista ds. procesów kredytowych", image: "/team/wiktoria.jpg" },
+          { name: "Denys Toporko", role: "Specjalista ds. kredytów hipotecznych", image: "/team/denys.jpg" },
+          { name: "Paweł Klucznik", role: "Specjalista ds. obsługi klienta", image: "/team/pawel.jpg" },
           { name: "Antoni Kasprzyk", role: "Specjalista ds. ubezpieczeń majątkowych", image: "" },
-          { name: "Magdalena Kośmider", role: "Specjalista ds. ubezpieczeń majątkowych", image: "" },
-          { name: "Yelyzaveta Shapurenko", role: "Specjalista ds. procesów kredytowych oraz ubezpieczeniowych", image: "" }
+          { name: "Magdalena Kośmider", role: "Specjalista ds. ubezpieczeń majątkowych", image: "/team/magdalena.jpg" },
+          { name: "Yelyzaveta Shapurenko", role: "Specjalista ds. procesów kredytowych oraz ubezpieczeniowych", image: "/team/yelyzaveta.jpg" }
         ]
       }
     },
@@ -202,12 +202,12 @@ const translations = {
       team: {
                 title: "Моя Команда",
                 members: [
-                  { name: "Wiktoria Chubatiuk", role: "Спеціаліст з кредитних процесів", image: "" },
-                  { name: "Denys Toporko", role: "Спеціаліст з іпотечних кредитів", image: "" },
-                  { name: "Paweł Klucznik", role: "Спеціаліст з обслуговування клієнтів", image: "" },
+                  { name: "Wiktoria Chubatiuk", role: "Спеціаліст з кредитних процесів", image: "/team/wiktoria.jpg" },
+                  { name: "Denys Toporko", role: "Спеціаліст з іпотечних кредитів", image: "/team/denys.jpg" },
+                  { name: "Paweł Klucznik", role: "Спеціаліст з обслуговування клієнтів", image: "/team/pawel.jpg" },
                   { name: "Antoni Kasprzyk", role: "Спеціаліст зі страхування майна", image: "" },
-                  { name: "Magdalena Kośmider", role: "Спеціаліст зі страхування майна", image: "" },
-                  { name: "Yelyzaveta Shapurenko", role: "Спеціаліст з кредитних та страхових процесів", image: "" }
+                  { name: "Magdalena Kośmider", role: "Спеціаліст зі страхування майна", image: "/team/magdalena.jpg" },
+                  { name: "Yelyzaveta Shapurenko", role: "Спеціаліст з кредитних та страхових процесів", image: "/team/yelyzaveta.jpg" }
                 ]
               }
     },
@@ -329,12 +329,12 @@ const translations = {
       team: {
                 title: "Моя Команда",
                 members: [
-                  { name: "Wiktoria Chubatiuk", role: "Специалист по кредитным процессам", image: "" },
-                  { name: "Denys Toporko", role: "Специалист по ипотечным кредитам", image: "" },
-                  { name: "Paweł Klucznik", role: "Специалист по обслуживанию клиентов", image: "" },
+                  { name: "Wiktoria Chubatiuk", role: "Специалист по кредитным процессам", image: "/team/wiktoria.jpg" },
+                  { name: "Denys Toporko", role: "Специалист по ипотечным кредитам", image: "/team/denys.jpg" },
+                  { name: "Paweł Klucznik", role: "Специалист по обслуживанию клиентов", image: "/team/pawel.jpg" },
                   { name: "Antoni Kasprzyk", role: "Специалист по страхованию имущества", image: "" },
-                  { name: "Magdalena Kośmider", role: "Специалист по страхованию имущества", image: "" },
-                  { name: "Yelyzaveta Shapurenko", role: "Специалист по кредитным и страховым процессам", image: "" }
+                  { name: "Magdalena Kośmider", role: "Специалист по страхованию имущества", image: "/team/magdalena.jpg" },
+                  { name: "Yelyzaveta Shapurenko", role: "Специалист по кредитным и страховым процессам", image: "/team/yelyzaveta.jpg" }
                 ]
               }
     },
@@ -829,15 +829,26 @@ export default function Home() {
                 transition={{ delay: idx * 0.1 }}
                 className="group text-center"
               >
-                <div className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-4 rounded-full overflow-hidden bg-[#F5F5F5] border-2 border-[#E5E5E5] group-hover:border-[#000000] transition-colors">
-                  {member.image ? (
-                    <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center text-[#999999] text-2xl md:text-3xl font-serif font-medium">
-                      {member.name.split(' ').map(n => n[0]).join('')}
-                    </div>
-                  )}
-                </div>
+                {member.image ? (
+                  <Dialog>
+                    <DialogTrigger asChild>
+                      <button
+                        type="button"
+                        aria-label={member.name}
+                        className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-4 rounded-full overflow-hidden bg-[#F5F5F5] border-2 border-[#E5E5E5] group-hover:border-[#000000] transition-colors cursor-zoom-in"
+                      >
+                        <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                      </button>
+                    </DialogTrigger>
+                    <DialogContent className="max-w-md p-0 bg-transparent border-none shadow-none">
+                      <img src={member.image} alt={member.name} className="w-full h-auto rounded-2xl" />
+                    </DialogContent>
+                  </Dialog>
+                ) : (
+                  <div className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-4 rounded-full overflow-hidden bg-[#F5F5F5] border-2 border-[#E5E5E5] group-hover:border-[#000000] transition-colors flex items-center justify-center text-[#999999] text-2xl md:text-3xl font-serif font-medium">
+                    {member.name.split(' ').map(n => n[0]).join('')}
+                  </div>
+                )}
                 <h3 className="font-serif text-sm md:text-base font-medium text-[#000000] mb-1">
                   {member.name}
                 </h3>
