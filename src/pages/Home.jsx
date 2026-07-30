@@ -75,12 +75,12 @@ const translations = {
       team: {
         title: "Mój Zespół",
         members: [
-          { name: "Wiktoria Chubatiuk", role: "Specjalista ds. procesów kredytowych", image: "" },
-          { name: "Denys Toporko", role: "Specjalista ds. kredytów hipotecznych", image: "" },
-          { name: "Paweł Klucznik", role: "Specjalista ds. obsługi klienta", image: "" },
+          { name: "Wiktoria Chubatiuk", role: "Specjalista ds. procesów kredytowych", image: "/team/wiktoria.jpg" },
+          { name: "Denys Toporko", role: "Specjalista ds. kredytów hipotecznych", image: "/team/denys.jpg" },
+          { name: "Paweł Klucznik", role: "Specjalista ds. obsługi klienta", image: "/team/pawel.jpg" },
           { name: "Antoni Kasprzyk", role: "Specjalista ds. ubezpieczeń majątkowych", image: "" },
-          { name: "Magdalena Kośmider", role: "Specjalista ds. ubezpieczeń majątkowych", image: "" },
-          { name: "Yelyzaveta Shapurenko", role: "Specjalista ds. procesów kredytowych oraz ubezpieczeniowych", image: "" }
+          { name: "Magdalena Kośmider", role: "Specjalista ds. ubezpieczeń majątkowych", image: "/team/magdalena.jpg" },
+          { name: "Yelyzaveta Shapurenko", role: "Specjalista ds. procesów kredytowych oraz ubezpieczeniowych", image: "/team/yelyzaveta.jpg" }
         ]
       }
     },
@@ -202,12 +202,12 @@ const translations = {
       team: {
                 title: "Моя Команда",
                 members: [
-                  { name: "Wiktoria Chubatiuk", role: "Спеціаліст з кредитних процесів", image: "" },
-                  { name: "Denys Toporko", role: "Спеціаліст з іпотечних кредитів", image: "" },
-                  { name: "Paweł Klucznik", role: "Спеціаліст з обслуговування клієнтів", image: "" },
+                  { name: "Wiktoria Chubatiuk", role: "Спеціаліст з кредитних процесів", image: "/team/wiktoria.jpg" },
+                  { name: "Denys Toporko", role: "Спеціаліст з іпотечних кредитів", image: "/team/denys.jpg" },
+                  { name: "Paweł Klucznik", role: "Спеціаліст з обслуговування клієнтів", image: "/team/pawel.jpg" },
                   { name: "Antoni Kasprzyk", role: "Спеціаліст зі страхування майна", image: "" },
-                  { name: "Magdalena Kośmider", role: "Спеціаліст зі страхування майна", image: "" },
-                  { name: "Yelyzaveta Shapurenko", role: "Спеціаліст з кредитних та страхових процесів", image: "" }
+                  { name: "Magdalena Kośmider", role: "Спеціаліст зі страхування майна", image: "/team/magdalena.jpg" },
+                  { name: "Yelyzaveta Shapurenko", role: "Спеціаліст з кредитних та страхових процесів", image: "/team/yelyzaveta.jpg" }
                 ]
               }
     },
@@ -329,12 +329,12 @@ const translations = {
       team: {
                 title: "Моя Команда",
                 members: [
-                  { name: "Wiktoria Chubatiuk", role: "Специалист по кредитным процессам", image: "" },
-                  { name: "Denys Toporko", role: "Специалист по ипотечным кредитам", image: "" },
-                  { name: "Paweł Klucznik", role: "Специалист по обслуживанию клиентов", image: "" },
+                  { name: "Wiktoria Chubatiuk", role: "Специалист по кредитным процессам", image: "/team/wiktoria.jpg" },
+                  { name: "Denys Toporko", role: "Специалист по ипотечным кредитам", image: "/team/denys.jpg" },
+                  { name: "Paweł Klucznik", role: "Специалист по обслуживанию клиентов", image: "/team/pawel.jpg" },
                   { name: "Antoni Kasprzyk", role: "Специалист по страхованию имущества", image: "" },
-                  { name: "Magdalena Kośmider", role: "Специалист по страхованию имущества", image: "" },
-                  { name: "Yelyzaveta Shapurenko", role: "Специалист по кредитным и страховым процессам", image: "" }
+                  { name: "Magdalena Kośmider", role: "Специалист по страхованию имущества", image: "/team/magdalena.jpg" },
+                  { name: "Yelyzaveta Shapurenko", role: "Специалист по кредитным и страховым процессам", image: "/team/yelyzaveta.jpg" }
                 ]
               }
     },
