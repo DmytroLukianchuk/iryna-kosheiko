@@ -751,15 +751,15 @@ export default function Home() {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 bg-white rounded-2xl p-8 shadow-sm border border-[#E5E5E5]"
           >
             <div className="text-center md:text-left md:border-r border-[#E5E5E5] last:border-0 px-4">
-              <h3 className="font-serif text-4xl font-medium text-[#000000] mb-1">1200+</h3>
+              <h3 className="font-serif text-4xl font-medium text-[#000000] mb-1">1400+</h3>
               <p className="text-sm text-[#666666] uppercase tracking-wider">{t.about.stats.clients}</p>
             </div>
             <div className="text-center md:text-left md:border-r border-[#E5E5E5] last:border-0 px-4">
-              <h3 className="font-serif text-4xl font-medium text-[#000000] mb-1">100+ mln</h3>
+              <h3 className="font-serif text-4xl font-medium text-[#000000] mb-1">115+ млн</h3>
               <p className="text-sm text-[#666666] uppercase tracking-wider">{t.about.stats.credits}</p>
             </div>
             <div className="text-center md:text-left px-4">
-              <h3 className="font-serif text-4xl font-medium text-[#000000] mb-1">7+</h3>
+              <h3 className="font-serif text-4xl font-medium text-[#000000] mb-1">8+</h3>
               <p className="text-sm text-[#666666] uppercase tracking-wider">{t.about.stats.experience}</p>
             </div>
           </motion.div>
