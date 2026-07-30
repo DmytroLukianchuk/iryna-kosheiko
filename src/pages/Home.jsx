@@ -647,7 +647,7 @@ export default function Home() {
               className="w-10 h-10 rounded-full overflow-hidden shadow-md border border-gray-200 bg-white hover:scale-105 transition-transform"
             >
               <img 
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68f2565d12abe71377f293e4/0bd3aba70_photo_2025-12-02160933.jpeg"
+                src="/iryna-about.jpg"
                 alt="Logo"
                 className="w-full h-full object-cover"
               />
@@ -698,7 +698,7 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-full border border-[#000000]/10 scale-110"></div>
                 <div className="w-full h-full rounded-full overflow-hidden shadow-2xl border-4 border-white">
                   <img 
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68f2565d12abe71377f293e4/0bd3aba70_photo_2025-12-02160933.jpeg" 
+                    src="/iryna-about.jpg" 
                     alt="Iryna Kosheiko"
                     className="w-full h-full object-cover"
                   />
